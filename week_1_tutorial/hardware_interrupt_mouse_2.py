@@ -18,11 +18,12 @@ def task1():
 def task2():
     global mouse_clicked, mouse_x, mouse_y
     while not stop_threads:
+        print("Task 2 running")
         if mouse_clicked:
             print("Mouse click interrupt received (Task 2)")
             print(f"Mouse coordinates: X = {mouse_x}, Y = {mouse_y}")
             mouse_clicked = False
-        time.sleep(0.1)
+        time.sleep(1)
 
 # Mouse click callback function
 def on_mouse_click(x, y, button, pressed):
