@@ -1,3 +1,4 @@
 pynput
 matplotlib
 pywin32
+colorama

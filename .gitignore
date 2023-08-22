@@ -1,3 +1,14 @@
 week4_tutorial/app1/.vs/
 week4_tutorial/app1/x64/
 week4_tutorial/app1/app1/x64/
+
+*.exe
+*.dll
+*.so
+*.o
+
+bin/
+obj/
+.vs/
+.vscore/
+week4_tutorial/processes/windows-only/app1/app1/app1.vcxproj.user
